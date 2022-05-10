@@ -1,17 +1,9 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 from PIL import Image, ImageDraw
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-
-
-# In[7]:
-
 
 #code adapted from https://blog.paperspace.com/train-yolov5-custom-data/
 
@@ -73,10 +65,3 @@ image = Image.open(image_file)
 
 #Plot the Bounding Box
 plot_bounding_box(image, np.loadtxt(annotation_file))
-
-
-# In[ ]:
-
-
-
-
